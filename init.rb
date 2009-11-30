@@ -1,8 +1,1 @@
-require "sprockets"
-require "sprockets_helper"
-require "sprocket"
-require "sprockets_application"
-
-class ActionController::Base
-  helper :sprockets
-end
+require File.join(File.dirname(__FILE__), 'lib', 'sprockets-rails')

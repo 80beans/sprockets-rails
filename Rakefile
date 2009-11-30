@@ -1,6 +1,21 @@
+require 'rubygems'
 require 'rake'
 require 'rake/testtask'
 require 'rake/rdoctask'
+
+begin
+  require 'jeweler'
+  Jeweler::Tasks.new do |gem|
+    gem.name = "sprockets-rails"
+    gem.summary = %Q{sprockets-rails}
+    gem.description = %Q{sprockets-rails}
+    gem.email = "jeff@80beans.com"
+    gem.homepage = "http://github.com/80beans/sprockets-rails"
+    gem.authors = ["jeffkreeftmeijer"]
+  end
+rescue LoadError
+  puts "Jeweler (or a dependency) not available. Install it with: sudo gem install jeweler"
+end
 
 desc 'Default: run unit tests.'
 task :default => :test
