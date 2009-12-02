@@ -11,7 +11,7 @@ begin
     gem.description = %Q{Sprockets JavaScript dependency management and concatenation support for Rails applications}
     gem.email = "jeff@80beans.com"
     gem.homepage = "http://github.com/80beans/sprockets-rails"
-    gem.authors = ["Jeff Kreeftmeijer"]
+    gem.authors = ["Sam Stephenson","Jeff Kreeftmeijer"]
     gem.add_dependency 'sprockets', ">= 1.0.2"
   end
 rescue LoadError
