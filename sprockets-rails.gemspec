@@ -8,21 +8,22 @@ Gem::Specification.new do |s|
   s.version = "0.0.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["jeffkreeftmeijer"]
-  s.date = %q{2009-11-30}
-  s.description = %q{sprockets-rails}
+  s.authors = ["Jeff Kreeftmeijer"]
+  s.date = %q{2009-12-02}
+  s.description = %q{Sprockets JavaScript dependency management and concatenation support for Rails applications}
   s.email = %q{jeff@80beans.com}
   s.extra_rdoc_files = [
     "README.markdown"
   ]
   s.files = [
-    ".document",
-     ".gitignore",
+    ".gitignore",
      "MIT-LICENSE",
      "README.markdown",
      "Rakefile",
      "VERSION",
      "config/sprockets.yml",
+     "generators/sprockets_rails/sprockets_rails_generator.rb",
+     "generators/sprockets_rails/templates/application.js",
      "init.rb",
      "install.rb",
      "lib/sprocket.rb",
@@ -39,7 +40,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.5}
-  s.summary = %q{sprockets-rails}
+  s.summary = %q{Sprockets JavaScript dependency management and concatenation support for Rails applications}
   s.test_files = [
     "test/sprockets_test.rb"
   ]

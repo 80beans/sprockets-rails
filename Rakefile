@@ -7,11 +7,11 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "sprockets-rails"
-    gem.summary = %Q{sprockets-rails}
-    gem.description = %Q{sprockets-rails}
+    gem.summary = %Q{Sprockets JavaScript dependency management and concatenation support for Rails applications}
+    gem.description = %Q{Sprockets JavaScript dependency management and concatenation support for Rails applications}
     gem.email = "jeff@80beans.com"
     gem.homepage = "http://github.com/80beans/sprockets-rails"
-    gem.authors = ["jeffkreeftmeijer"]
+    gem.authors = ["Jeff Kreeftmeijer"]
   end
 rescue LoadError
   puts "Jeweler (or a dependency) not available. Install it with: sudo gem install jeweler"
