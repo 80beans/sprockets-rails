@@ -12,6 +12,7 @@ begin
     gem.email = "jeff@80beans.com"
     gem.homepage = "http://github.com/80beans/sprockets-rails"
     gem.authors = ["Jeff Kreeftmeijer"]
+    gem.add_dependency 'sprockets', ">= 1.0.2"
   end
 rescue LoadError
   puts "Jeweler (or a dependency) not available. Install it with: sudo gem install jeweler"
